@@ -3,38 +3,38 @@ description: something
 title: "Feature request:"
 labels: ["status/new"]
 body:
-  - type: textarea
-    id: description
-    attributes:
-      label: "Feature description"
-      description: Please describe clearly and concisely the missing capability.
-      placeholder: This is placeholder.
-    validations:
-      required: true
-   - type: textarea
-    id: how
-    attributes:
-      label: How does this help you?
-      description: Describe the what or how this feature would impact how you use k6 Cloud.
-      placeholder: Some placeholder.
-    validations:
-      required: false
-  - type: dropdown
-    attributes:
-      label: How often do you come across needing a feature like this?
-      description: Please link research results or insights in the Background section if you have any. If no research was conducted, you might want to consider usability testing your design later.
-      options: [
-        "Daily", 
-        "Weekly",
-        "Monthly
-      ]
-    validations:
-      required: false
-   - type: textarea
-    id: other
-    attributes:
-      label: Anything else to add?
-      description: Please share additional details that do not fit in one of the above forms
-      placeholder: Some placeholder.
-    validations:
-      required: false
+- type: textarea
+  id: description
+  attributes:
+    label: "Feature description"
+    description: Please describe clearly and concisely the missing capability.
+    placeholder: This is placeholder.
+  validations:
+    required: true
+ - type: textarea
+  id: how
+  attributes:
+    label: How does this help you?
+    description: Describe the what or how this feature would impact how you use k6 Cloud.
+    placeholder: Some placeholder.
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: How often do you come across needing a feature like this?
+    description: Please link research results or insights in the Background section if you have any. If no research was conducted, you might want to consider usability testing your design later.
+    options: [
+      "Daily", 
+      "Weekly",
+      "Monthly
+    ]
+  validations:
+    required: false
+ - type: textarea
+  id: other
+  attributes:
+    label: Anything else to add?
+    description: Please share additional details that do not fit in one of the above forms
+    placeholder: Some placeholder.
+  validations:
+    required: false
