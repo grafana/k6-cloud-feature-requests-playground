@@ -1,43 +1,40 @@
-name: UX design issue
-description: Create an issue for delivering wireframes, mockups or other design solutions.
-title: "UX: "
-labels: ["type/ux"]
+name: Feature request
+description: -
+title: "Feature request:"
+labels: ["status/new"]
 body:
   - type: textarea
-    id: background
+    id: description
     attributes:
-      label: "Background / Why we're doing this"
-      description: Describe the problem and background of the issue. This could include research insights that inform the design changes, unmet user needs, or other usability issues.
-      placeholder: Add UI improvements to make Grafana Alerting alert creation easier based on usability test results.
+      label: "Feature description"
+      description: Please describe clearly and concisely the missing capability.
+      placeholder: This is placeholder.
     validations:
       required: true
-  - type: dropdown
+   - type: textarea
+    id: how
     attributes:
-      label: Is there existing research for this?
-      description: Please link research results or insights in the Background section if you have any. If no research was conducted, you might want to consider usability testing your design later.
-      options: [
-        "Yes, I have linked it", 
-        "No research yet"
-      ]
-    validations:
-      required: true
-  - type: textarea
-    id: problems-or-tasks
-    attributes:
-      label: Problems or tasks
-      description: Describe problems the new design should solve or tasks the user needs to complete.
-      placeholder: 
-      value: |
-        - A problem we're trying to solve
-        - A task the user needs to accomplish
-        - …
+      label: How does this help you?
+      description: Describe the what or how this feature would impact how you use k6 Cloud.
+      placeholder: Some placeholder.
     validations:
       required: false
-  - type: textarea
+  - type: dropdown
     attributes:
-      label: Deliverables
-      description: Add a checklist of deliverables here. You can later add links to each deliverable.
-      value: |
-          - Figma mockup
-          - Miro board
-          - …
+      label: How often do you come across needing a feature like this?
+      description: Please link research results or insights in the Background section if you have any. If no research was conducted, you might want to consider usability testing your design later.
+      options: [
+        "Daily", 
+        "Weekly",
+        "Monthly
+      ]
+    validations:
+      required: false
+   - type: textarea
+    id: other
+    attributes:
+      label: Anything else to add?
+      description: Please share additional details that do not fit in one of the above forms
+      placeholder: Some placeholder.
+    validations:
+      required: false
