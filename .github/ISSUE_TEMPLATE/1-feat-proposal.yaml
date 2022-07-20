@@ -11,7 +11,7 @@ body:
       placeholder: This is placeholder.
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: how
     attributes:
       label: How does this help you?
@@ -26,11 +26,11 @@ body:
       options: [
         "Daily", 
         "Weekly",
-        "Monthly
+        "Monthly"
       ]
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     id: other
     attributes:
       label: Anything else to add?
