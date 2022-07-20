@@ -2,6 +2,8 @@ name: Feature request
 description: something
 title: "Feature request:"
 labels: ["status/new"]
+assignees:
+  - markjmeier
 body:
   - type: textarea
     id: description
